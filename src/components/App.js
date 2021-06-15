@@ -1,17 +1,29 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-import Header from "./Header";
-import ProductListCotainer from "./ProductListContainer";
-import TotalsContainer from "./TotalsContainer";
-import PromoCodeContainer from "./PromoCodeContainer";
+import HomePage from "../pages/HomePage";
+import AddProductPage from "../pages/AddProductPage";
 
 const App = () => {
   return (
-    <div>
-        <Header />
-        <ProductListCotainer/>
-        <TotalsContainer/>
-        <PromoCodeContainer/>
-    </div>
+    <Router>
+        
+        <Switch>
+
+            <Route exact path="/">
+              <HomePage/>
+            </Route>
+
+            <Route path = "/products">
+              <AddProductPage/>
+            </Route>
+
+
+        </Switch>
+    </Router>
   )
 }
 

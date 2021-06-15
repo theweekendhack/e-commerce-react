@@ -3,9 +3,9 @@ import ProductLine from "./ProductLine";
 const ProductListContainer = () => {
     return (
         <div>
-            <h1>Product List Container</h1>
-            <ProductLine/>
-            <ProductLine/>
+            <ProductLine title="Pants" unitPrice={10} qty={0} extendedPrice={0} />
+            <ProductLine title="Shirt" unitPrice={5} qty={0} extendedPrice={0}/>
+            <ProductLine title="Shoes" unitPrice={100} qty={0} extendedPrice={0}/>
         </div>
     )
 }
