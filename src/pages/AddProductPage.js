@@ -3,9 +3,12 @@ import AddProductFrom from "../components/AddProductForm"
 
 const AddProductPage = () => {
     return (
-        <div>
+        <div id="container">
             <Header/>
-            <AddProductFrom/>
+            <main>
+                <AddProductFrom/>        
+            </main>
+     
         </div>
     )
 }

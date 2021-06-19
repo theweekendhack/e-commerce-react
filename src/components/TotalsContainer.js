@@ -1,10 +1,24 @@
-import React from 'react'
 
-const TotalsContainer = () => {
+const TotalsContainer = () => 
+{
+
+    
+
+
     return (
-        <div>
-                <h1>Total Container</h1>
-        </div>
+        <div id="bill-area">
+
+        <p>
+            Sub Total :  
+        </p>
+        <p>
+            Tax :  
+        </p>
+        <p>
+            Total:  
+        </p>
+
+    </div>
     )
 }
 

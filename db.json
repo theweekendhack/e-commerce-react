@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Shirt",
+      "qty": 0,
+      "unitPrice": 5,
+      "extendedPrice": 0,
+      "description": "Shirt From Rattans"
+    },
+    {
+      "id": 2,
+      "title": "Pants",
+      "qty": 0,
+      "unitPrice": 25,
+      "extendedPrice": 0,
+      "description": "Pants from Rattans"
+    },
+    {
+      "id": 3,
+      "title": "Shoes",
+      "qty": 0,
+      "unitPrice": 250,
+      "extendedPrice": 0,
+      "description": "Shoes from Rattans"
+    },
+    {
+      "id": 4,
+      "title": "PS5",
+      "qty": 0,
+      "unitPrice": 900,
+      "extendedPrice": 0,
+      "description": "PS5 from Amazon"
+    },
+    {
+      "id": 5,
+      "title": "XBOx",
+      "qty": 0,
+      "unitPrice": 400,
+      "extendedPrice": 0,
+      "description": "XBOX"
+    },
+    {
+      "title": "55\" Samsung TV",
+      "unitPrice": 500,
+      "description": "blah blah",
+      "qty": 0,
+      "extendedPrice": 0,
+      "details": "b",
+      "id": 6
+    },
+    {
+      "title": "60 Samsung TV",
+      "unitPrice": 700,
+      "description": "blah blah",
+      "qty": 0,
+      "extendedPrice": 0,
+      "id": 7
+    },
+    {
+      "title": "Foil",
+      "unitPrice": 10,
+      "description": "blah bgalh",
+      "qty": 0,
+      "extendedPrice": 0,
+      "id": 8
+    },
+    {
+      "title": "Midterm",
+      "unitPrice": 5,
+      "description": "dgdd",
+      "qty": 0,
+      "extendedPrice": 0,
+      "id": 9
+    }
+  ],
+  "users": []
+}

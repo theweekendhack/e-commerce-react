@@ -6,11 +6,14 @@ import PromoCodeContainer from "../components/PromoCodeContainer";
 
 const HomePage = () => {
     return (
-        <div>
+        <div id="container">
             <Header />
-            <ProductListCotainer/>
-            <TotalsContainer/>
-            <PromoCodeContainer/>
+            <main>
+                <ProductListCotainer />
+                <TotalsContainer/>
+                <PromoCodeContainer/>
+            </main>
+
         </div>
     )
 }
